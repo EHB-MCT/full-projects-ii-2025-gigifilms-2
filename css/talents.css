@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+background-color: black;
+}
+ 
+.navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 180px;
+            background-color: black;
+        }
+        .logo img {
+            height: 30px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 50px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+         font-family: "Playfair Display", serif;
+         /* font-weight: 600;
+    font-style: italic;
+*/
+ 
+ 
+        }
+ 
+
+.grid1 {
+    display: grid;
+    grid-template-rows: 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-columns: 0.90fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.90fr ;
+    height: 120vh;
+    width: 100vw;
+    margin: 0;
+}
+ 
+.grid1 div:nth-child(1) {
+    grid-column: 2/ 10;
+    grid-row: 2 /10 ;
+}
+ 
+.foto img {
+            height: 215px;
+        }
+ 
+.grid1 div:nth-child(2) {
+    grid-column: 6/ 10;
+    grid-row: 2/10 ;
+}
+ 
+.foto2 img {
+            height: 215px;
+        }        
+ 
+.grid1 div:nth-child(3) {
+    grid-column: 10/ 13;
+    grid-row: 2/10  ;
+}
+ 
+.foto3 img {
+            height: 215px;
+        }                
+ 
+.grid1 div:nth-child(4) {
+    grid-column: 2/ 11;
+    grid-row: 6/10 ;
+}
+ 
+.foto4 img {
+            height: 215px;
+        }                        
+ 
+.grid1 p:nth-child(5) {
+    grid-column: 10 / 13;
+    grid-row: 4/ 10 ;
+  color: white;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+ 
+.grid1 p:nth-child(6) {
+    grid-column: 2 / 4;
+    grid-row: 4/ 10 ;
+  color: white;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+ 
+.grid1 p:nth-child(7) {
+    grid-column: 6 / 10;
+    grid-row: 4/ 10 ;
+  color: white;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+ 
+.grid1 p:nth-child(8) {
+    grid-column: 2/ 10;
+    grid-row: 8/ 13 ;
+  color: white;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+ 
+
+
+ 
+.grid1 div:nth-child(10) {
+    grid-column: 1/ 13;
+    grid-row: 10/ 12 ;
+  
+}
+ 
+.navbar2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 180px;
+            background-color: black;
+        }
+        .logo img {
+            height: 30px;
+        }
+        .nav-links2 {
+            display: flex;
+            gap: 50px;
+        }
+        .nav-links2 a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+         font-family: "Playfair Display", serif;
+         /* font-weight: 600;
+    font-style: italic;
+*/
+ 
+ 
+    }
+ 
