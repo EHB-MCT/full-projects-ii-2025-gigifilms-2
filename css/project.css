@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
 background-color: black;
+ overflow-x: hidden;
 }
  
 .navbar {
@@ -31,35 +32,57 @@ background-color: black;
  
  
         }
+
+
+  h1{
+
+font-family: "Playfair Display", serif;
+font-style: italic;
+font-size: 190px;
+font-weight: 600;
+
+    }
+
+
+   h2{
+
+font-family: "Playfair Display", serif;
+font-style: italic;
+font-size: 64px;
+font-weight: 600;
+
+    }
+
+
+
+
+
  
 .grid1 {
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-columns: 0.90fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.90fr ;
-    height: 200vh;
+    grid-template-rows: 0.5fr 0.5fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 0.80fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.80fr ;
+    height: 180vh;
     width: 100vw;
     margin: 0;
 }
  
  
-.grid1 p:nth-child(1) {
+.grid1 h2:nth-child(1) {
     grid-column: 2 / 7;
     grid-row: 2/ 7;
   color: white;
-  font-size: 80px;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-style: italic;
+
   
 }
  
  
  
 .grid1 div:nth-child(2) {
-    grid-column: 2 / 12;     
+    grid-column: 1 / 2;     
   grid-row: 2/ 4;         
   height: 2px;            
-  background-color: white;
+  background-color: black;
   align-self: center;      
   
   
@@ -100,24 +123,20 @@ background-color: black;
 }
  
  
-.grid1 p:nth-child(6) {
+.grid1 h2:nth-child(6) {
     grid-column: 2 / 7;
     grid-row: 8/ 10;
   color: white;
-  font-size: 80px;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-style: italic;
   
 }
  
  
  
 .grid1 div:nth-child(7) {
-    grid-column: 2 / 12;     
+    grid-column: 1 / 2;     
   grid-row: 6 / 12;         
   height: 2px;             
-  background-color: white;
+  background-color: black;
   align-self: center;      
   
 }

@@ -33,85 +33,105 @@ background-color: black;
  
         }
  
+
+
+
+
+
+
+
+
+    h1{
+
+font-family: "Playfair Display", serif;
+font-style: italic;
+font-size: 190px;
+font-weight: 600;
+
+    }
+
+
+   h2{
+
+font-family: "Playfair Display", serif;
+font-style: italic;
+font-size: 64px;
+font-weight: 600;
+
+    }
+
+
+
+
+
 .grid1 {
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
-    grid-template-columns: 0.90fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.90fr ;
-    height: 120vh;
+    grid-template-rows: 0.58fr 0.5fr 0.3fr 0.5fr 0.5fr 0.5fr 0.5fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-columns: 0.78fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.7fr ;
+    height: 130vh;
     width: 100vw;
     margin: 0;
 }
  
-.grid1 p:nth-child(1) {
+.grid1 h2:nth-child(1) {
     grid-column: 2 / 10;
     grid-row: 2/ 10;
   color: white;
-  font-size: 64px;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-style: italic;
+  
   
 }
  
 .grid1 p:nth-child(2) {
     grid-column: 2 / 7;
-    grid-row: 3/ 5 ;
+    grid-row: 4 / 4 ;
   color: white;
   font-size: 18px;
   font-family: "Afacad", sans-serif;
-  font-weight: 600;
   font-style: italic;
   
 }
  
-.grid1 div:nth-child(3) {
-    grid-column: 8/ 11;
-    grid-row: 3/9  ;
+.grid1 img:nth-child(3) {
+    grid-column: 8 / 12;
+    grid-row: 3 / 7  ;
     
- 
+  height: 100%;
+    width: 100%;
 }
  
-.foto2 img {
-            height: 270px;
-        }
  
  
-.grid1 p:nth-child(4) {
+.grid1 h2:nth-child(4) {
     grid-column: 2 / 10;
     grid-row: 7/ 10;
   color: white;
-  font-size: 64px;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-style: italic;
-  
+
 }
  
 .grid1 p:nth-child(5) {
     grid-column: 2 / 7;
-    grid-row: 8/ 10 ;
+    grid-row: 9 / 9 ;
   color: white;
   font-size: 18px;
   font-family: "Afacad", sans-serif;
-  font-weight: 600;
   font-style: italic;
   
 }
  
-.grid1 div:nth-child(6) {
-    grid-column: 8/ 11;
-    grid-row: 7/9  ;
+.grid1 img:nth-child(6) {
+    grid-column: 8 / 12;
+    grid-row: 8 / 12  ;
+
+    height: 100%;
+    width: 100%;
 }
- 
-.foto3 img {
-            height: 270px;
-        }
+
  
 
  
 .grid1 div:nth-child(8) {
     grid-column: 1/ 16;
-    grid-row: 12/ 13 ;
+    grid-row: 13 / 13 ;
   
 }
  

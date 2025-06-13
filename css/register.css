@@ -78,7 +78,7 @@ font-size: 18px;
 .grid1 {
     display: grid;
     grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 210vh;
     width: 100vw;
     margin: 0;

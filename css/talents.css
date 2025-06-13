@@ -33,9 +33,10 @@ background-color: black;
  
         }
  
+
 .grid1 {
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-rows: 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
     grid-template-columns: 0.90fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.90fr ;
     height: 120vh;
     width: 100vw;
@@ -44,7 +45,7 @@ background-color: black;
  
 .grid1 div:nth-child(1) {
     grid-column: 2/ 10;
-    grid-row: 2/10 ;
+    grid-row: 2 /10 ;
 }
  
 .foto img {
