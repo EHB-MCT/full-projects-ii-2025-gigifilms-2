@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
-
+ 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: black;
   overflow-x: hidden;
 }
-
- .navbar {
+ 
+.navbar {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -19,7 +19,7 @@ body {
         }
         .nav-links {
             display: flex;
-            gap: 50px; 
+            gap: 50px;
         }
         .nav-links a {
             text-decoration: none;
@@ -28,33 +28,33 @@ body {
          font-family: "Playfair Display", serif;
          /* font-weight: 600;
     font-style: italic;
- */
+*/
   }
-
-
-
-
+ 
+ 
+ 
+ 
     h1{
-
+ 
 font-family: "Playfair Display", serif;
 font-style: italic;
 font-size: 190px;
 font-weight: 600;
-
+ 
     }
-
-
+ 
+ 
    h2{
-
+ 
 font-family: "Playfair Display", serif;
 font-style: italic;
 font-size: 64px;
 font-weight: 600;
-
+ 
     }
-
-
-
+ 
+ 
+ 
 .casting-button {
   display: grid;
   border: 1px solid white;
@@ -70,8 +70,8 @@ font-weight: 600;
   width: 150px;
   height: 30px;
 }
-
-
+ 
+ 
 .casting-button2 {
   display: grid;
   padding: 10px 15px;
@@ -87,12 +87,12 @@ font-weight: 600;
   width: 100px;
   height: 30px;
 }
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 .grid1 {
     display: grid;
     grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr 1fr;
@@ -100,9 +100,10 @@ font-weight: 600;
     height: 100vh;
     width: 100vw;
     margin: 0;
+    
 }
-
-
+ 
+ 
 .grid1 img:nth-child(1) {
     grid-column: 1 / 7;
     grid-row: 1 / 7;
@@ -110,9 +111,9 @@ font-weight: 600;
     width: 100%;
    
 }
-
-
-
+ 
+ 
+ 
 .grid1 h1:nth-child(2) {
     grid-column: 2 / 3;
     grid-row: 2 / 2;
@@ -123,21 +124,21 @@ font-style: italic;
 font-size: 120px;
    
 }
-
-
-
-
+ 
+ 
+ 
+ 
 .grid1 p:nth-child(3) {
     grid-column: 2 / 4;
     grid-row: 3 / 3;
    color: white;
- font-family: "Afacad", sans-serif;
+font-family: "Afacad", sans-serif;
 font-size: 18px;
    
 }
-
-
-
+ 
+ 
+ 
 .grid1 a:nth-child(4) {
     grid-column: 2 / 2;
     grid-row: 4 / 4;
@@ -146,11 +147,11 @@ font-size: 18px;
 font-size: 18px;
    
 }
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 .grid2 {
     display: grid;
     grid-template-columns: 0.34fr 0.5fr 0.5fr 0.2fr 0.5fr 0.5fr 0.34fr;
@@ -159,8 +160,8 @@ font-size: 18px;
     width: 100vw;
     margin: 0;
 }
-
-
+ 
+ 
 .grid2 img:nth-child(1) {
     grid-column: 2 / 4;
     grid-row: 2 / 5;
@@ -168,8 +169,8 @@ font-size: 18px;
     width: 100%;
    
 }
-
-
+ 
+ 
 .grid2 h2:nth-child(2) {
     grid-column: 5 / 7;
     grid-row: 2 / 2;
@@ -177,7 +178,7 @@ font-size: 18px;
  
    
 }
-
+ 
 .grid2 p:nth-child(3) {
     grid-column: 5 / 7;
     grid-row: 4 / 4;
@@ -186,8 +187,8 @@ font-size: 18px;
 font-size: 18px;
    
 }
-
-
+ 
+ 
 .grid2 a:nth-child(4) {
     grid-column: 5 / 7;
     grid-row: 5 / 5;
@@ -198,11 +199,11 @@ align-self: end;
 font-size: 18px;
    
 }
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -211,30 +212,124 @@ font-size: 18px;
 }
  
 
-
-
-
-
-@media (max-width: 768px) {
-  
-  
-  
-  .menu-toggle {
-  display: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 20px 20px;
+    border-top: 1px solid #333;
+    margin-top: 40px;
 }
  
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+.footer-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+ 
+.footer-logo img {
+    height: 40px;
+    opacity: 0.9;
+}
+ 
+.footer-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-items: center;
+}
+ 
+.footer-section h3 {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+}
+ 
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+ 
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-family: "Afacad", sans-serif;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+ 
+.footer-section ul li a:hover {
+    color: white;
+}
+ 
+.footer-contact p {
+    margin: 5px 0;
+    font-family: "Afacad", sans-serif;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.4;
+}
+ 
+.footer-social {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.social-links a {
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+ 
+.social-links a:hover {
+    color: white;
+}
+ 
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+ 
+.footer-bottom p {
+    margin: 0;
+    font-family: "Afacad", sans-serif;
+    font-size: 12px;
+    color: #888;
+}
+ 
+ 
+ 
+ 
+@media (max-width: 768px) {
+  
+  .menu-toggle {
+    display: block;
+  }
  
   .navbar {
     flex-wrap: wrap;
     padding: 20px;
     gap: 10px;
-  }
- 
-  .menu-toggle {
-    display: block;
   }
  
   .nav-links {
@@ -252,27 +347,24 @@ font-size: 18px;
   .nav-links a {
     font-size: 16px;
     color: white;
-  }
- 
-  .nav-links a {
-    font-size: 16px;
-    color: white;
     text-decoration: none;
     font-family: "Playfair Display", serif;
   }
+  
+ 
   
   h1 {
     font-size: 48px !important;
     line-height: 1.1;
     margin: 0;
   }
-
+ 
   h2 {
     font-size: 32px !important;
     line-height: 1.2;
     margin: 0 0 15px 0;
   }
-
+ 
   .grid1 {
     display: flex;
     flex-direction: column;
@@ -280,16 +372,18 @@ font-size: 18px;
     height: auto;
     min-height: 100vh;
     position: relative;
+    gap: 0;
+    
   }
-
+ 
   .grid1 img:nth-child(1) {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
   }
-
+ 
   .grid1 h1:nth-child(2) {
     font-size: 48px;
     color: white;
@@ -298,7 +392,7 @@ font-size: 18px;
     font-weight: 600;
     font-style: italic;
   }
-
+ 
   .grid1 p:nth-child(3) {
     font-size: 16px;
     color: white;
@@ -306,14 +400,31 @@ font-size: 18px;
     font-family: "Afacad", sans-serif;
     line-height: 1.5;
   }
-
+ 
   .grid1 a:nth-child(4) {
     color: white;
     font-family: "Afacad", sans-serif;
     font-size: 16px;
     text-decoration: underline;
   }
-
+ 
+  .casting-button2 {
+  display: grid;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 999px;
+  color: white;
+  background-color: transparent;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: left; 
+  width: 100px;
+  height: 30px;
+  justify-self: start; 
+}
+ 
   
   .grid2 {
     display: flex;
@@ -321,8 +432,9 @@ font-size: 18px;
     padding: 20px;
     height: auto;
     min-height: 100vh;
+    gap: 0;
   }
-
+ 
   .grid2 img:nth-child(1) {
     width: 100%;
     height: 300px;
@@ -330,7 +442,7 @@ font-size: 18px;
     margin-bottom: 20px;
     border-radius: 10px;
   }
-
+ 
   .grid2 h2:nth-child(2) {
     font-size: 32px;
     color: white;
@@ -339,7 +451,7 @@ font-size: 18px;
     font-weight: 600;
     font-style: italic;
   }
-
+ 
   .grid2 p:nth-child(3) {
     color: white;
     font-family: "Afacad", sans-serif;
@@ -347,17 +459,20 @@ font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.5;
   }
+ 
 
-  .grid2 a:nth-child(4) {
-    color: white;
-    font-family: "Afacad", sans-serif;
-    font-size: 16px;
-    text-decoration: underline;
-  }
-
+.grid2 a:nth-child(4) {
+  grid-column: 5 / 7;
+  grid-row: 5 / 5;
+  color: white;
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  justify-self: start; 
+  align-self: end;
+}
   .casting-button, .casting-button2 {
     width: auto;
-    max-width: 200px;
+    max-width: 1Opx;
     padding: 12px 20px;
     margin: 15px 0;
     border: 1px solid white;
@@ -372,41 +487,68 @@ font-size: 18px;
     display: inline-block;
     height: auto;
   }
-
+ 
   .casting-button:hover, .casting-button2:hover {
     background-color: white;
     color: black;
     transition: all 0.3s ease;
   }
-
+ 
   .mobile-spacing {
     margin: 20px 0;
   }
 }
-
+ 
 @media (max-width: 576px) {
   .navbar {
     padding: 15px;
   }
-
+ 
   h1 {
     font-size: 36px !important;
   }
-
+ 
   h2 {
     font-size: 28px !important;
   }
-
+ 
   .grid1, .grid2 {
     padding: 15px;
   }
-
+ 
   .grid1 img:nth-child(1), .grid2 img:nth-child(1) {
     height: 250px;
   }
-
+ 
   .casting-button, .casting-button2 {
     font-size: 13px;
     padding: 10px 15px;
   }
+ 
+    .footer {
+        padding: 25px 10px 10px;
+    }
+ 
+    .footer-logo img {
+        height: 35px;
+    }
+ 
+    .footer-sections {
+        gap: 20px;
+    }
+ 
+    .footer-section h3 {
+        font-size: 15px;
+    }
+ 
+    .footer-section ul li a,
+    .footer-contact p {
+        font-size: 12px;
+    }
+ 
+    .social-links a {
+        font-size: 16px;
+    }
 }
+ 
+ 

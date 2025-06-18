@@ -37,24 +37,73 @@
    
   </div>
  
-    <div class="navbar2">
-        <div class="logo">
-            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
-        </div>
-        <div class="nav-links2">
-            <a href="#">about</a>
-            <a href="#">work</a>
-            <a href="#">castingproject</a>
-            <a href="#">our talent</a>
-            <a href="#">register as a talent</a>
-    </div>
-     </div>
- 
-     
- 
+  
+
  
     </div>
  
     </main>
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+        </div>
+        
+        <div class="footer-sections">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./project.html">Projecten</a></li>
+                    <li><a href="./casting.html">Casting</a></li>
+                    <li><a href="./talents.html">Talent</a></li>
+                    <li><a href="./ad.html">advertensie</a></li>
+                    <li><a href="./register.html">Register as Talent</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section footer-contact">
+                <h3>Contact</h3>
+                <p>Brussels, Belgium</p>
+                <p>zohra@gigifilms.be</p>
+                <p>romy@gigifilms.be</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Streetcasting</a></li>
+                    <li><a href="#">Talent Management</a></li>
+                    <li><a href="#">Film Production</a></li>
+                    <li><a href="#">Documentary</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    
+ 
+</footer>
+ 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+ 
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+});
+</script>
+
+
+
+
+
+
+
+
 </body>
 </html>
