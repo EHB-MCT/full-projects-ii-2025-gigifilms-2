@@ -42,7 +42,82 @@ body {
 
 
 
- 
+ #kaart-form {
+  width: 700px;
+  max-width: 95%;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Afacad", sans-serif;
+}
+
+#kaart-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+  color: white;
+}
+
+#kaart-form input[type="text"],
+#kaart-form input[type="date"],
+#kaart-form input[type="file"] {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 16px;
+  font-family: "Afacad", sans-serif;
+}
+
+#kaart-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#kaart-form input[type="file"] {
+  background-color: transparent;
+  padding: 8px;
+}
+
+#kaart-form button {
+  padding: 12px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Afacad", sans-serif;
+}
+
+#kaart-form button:hover {
+  background-color: #e0e0e0;
+}
+
+
+@media (max-width: 576px) {
+  #kaart-form {
+    padding: 20px;
+  }
+
+  #kaart-form h2 {
+    font-size: 20px;
+  }
+
+  #kaart-form input,
+  #kaart-form button {
+    font-size: 15px;
+  }
+}
+
 
 
 .kaart {
