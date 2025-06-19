@@ -140,12 +140,15 @@ font-size: 18px;
  
  
 .grid1 a:nth-child(4) {
+    display: flex;
     grid-column: 2 / 2;
     grid-row: 4 / 4;
-   color: white;
-  font-family: "Afacad", sans-serif;
-font-size: 18px;
-   
+    color: white;
+    font-family: "Afacad", sans-serif;
+    font-size: 18px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
  
  
@@ -190,18 +193,24 @@ font-size: 18px;
  
  
 .grid2 a:nth-child(4) {
+  display: flex;
     grid-column: 5 / 7;
     grid-row: 5 / 5;
    color: white;
   font-family: "Afacad", sans-serif;
+  align-content: center;
 text-align: center;
 align-self: end;
+ justify-content: space-around;
+    align-items: center;
 font-size: 18px;
    
 }
  
  
- 
+  
+   
+   
  
  
 .menu-toggle {

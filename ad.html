@@ -5,7 +5,8 @@
   <title>website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/reset.css" rel="stylesheet" type="text/css" />
-  <link href="./css/casting.css" rel="stylesheet" type="text/css" />
+  <link href="./css/ad.css" rel="stylesheet" type="text/css" />
+  <script type="module" src="addKaart.js" defer ></script>
 </head>
 <body>
  
@@ -21,10 +22,10 @@
     </div>
     <div class="nav-links" id="nav-links">
         <a href="./about.html">about</a>
-        <a href="./project.html">projecten</a>
+        <a href="./project.html">our work</a>
         <a href="./casting.html">casting</a>
         <a href="./talents.html">talent</a>
-        <a href="./ad.html" class="active">advertensie</a>
+        <a href="./ad.html" class="active">projects</a>
         <a href="./register.html">register as a talent</a>
          
     </div>
@@ -32,28 +33,78 @@
  
  
 <main>
- 
-<div class="grid1"></div>
- 
+ <form id="kaart-form">
+    <h2>Voeg een nieuw project toe</h2>
+    <input type="text" id="project" placeholder="Projectnaam" required>
+    <input type="text" id="locatie" placeholder="Locatie" required>
+    <input type="date" id="opnamedatum" required>
+    <input type="text" id="belichting" placeholder="Belichting" required>
+    <input type="text" id="weer" placeholder="Weersomstandigheden" required>
+    <input type="text" id="camera" placeholder="Camera" required>
+    <input type="text" id="lens" placeholder="Lens" required>
+  <input type="file" id="image" name="image" required>
+    <button type="submit">Toevoegen</button>
+</form>
+
+
+ <div id="kaart-container">
+         
  <div class="kaart">
     <div class="kaart-header">
-      <div class="image-placeholder"></div>
+      <img class="kaart-foto" img src="./images/putain.jpeg" alt="putainfilm">
       <div class="kaart-info">
-        <p><strong>Project:</strong></p>
-        <p><strong>Locatie:</strong></p>
-        <p><strong>Opnamedatum:</strong></p>
+        <p><strong>Project:</strong> Voorbeeldproject</p>
+        <p><strong>Locatie:</strong> Brussel</p>
+        <p><strong>Opnamedatum:</strong> 18 juni 2025</p>
       </div>
     </div>
     <ul class="kaart-lijst">
-      <li>- Leeftijd: [Gewenste leeftijdscategorie]</li>
-      <li>- Uiterlijk: [Specifieke kenmerken, indien nodig]</li>
-      <li>- Ervaring: [Beginners welkom of vereist ervaring?]</li>
-      <li>- Taal: [Welke taal/dialect is nodig?]</li>
+      <li>Belichting: natuurlijk licht, ochtend</li>
+      <li>Weersomstandigheden: helder</li>
+      <li>Camera: Sony A7 III</li>
+      <li>Lens: 24-70mm f/2.8</li>
     </ul>
   </div>
  
+
+<div class="kaart">
+    <div class="kaart-header">
+      <img class="kaart-foto" img src="./images/putain.jpeg" alt="putainfilm">
+      <div class="kaart-info">
+        <p><strong>Project:</strong> Voorbeeldproject</p>
+        <p><strong>Locatie:</strong> Brussel</p>
+        <p><strong>Opnamedatum:</strong> 18 juni 2025</p>
+      </div>
+    </div>
+    <ul class="kaart-lijst">
+      <li>Belichting: natuurlijk licht, ochtend</li>
+      <li>Weersomstandigheden: helder</li>
+      <li>Camera: Sony A7 III</li>
+      <li>Lens: 24-70mm f/2.8</li>
+    </ul>
+  </div>
+
+  <div class="kaart">
+    <div class="kaart-header">
+      <img class="kaart-foto" img src="./images/putain.jpeg" alt="putainfilm">
+      <div class="kaart-info">
+        <p><strong>Project:</strong> Voorbeeldproject</p>
+        <p><strong>Locatie:</strong> Brussel</p>
+        <p><strong>Opnamedatum:</strong> 18 juni 2025</p>
+      </div>
+    </div>
+    <ul class="kaart-lijst">
+      <li>Belichting: natuurlijk licht, ochtend</li>
+      <li>Weersomstandigheden: helder</li>
+      <li>Camera: Sony A7 III</li>
+      <li>Lens: 24-70mm f/2.8</li>
+    </ul>
+  </div>
+
+</div>
+
  
- 
+
  
  
 </main>
@@ -70,10 +121,10 @@
                 <h3>Navigation</h3>
                 <ul>
                     <li><a href="./about.html">About</a></li>
-                    <li><a href="./project.html">Projecten</a></li>
+                    <li><a href="./project.html">Our work</a></li>
                     <li><a href="./casting.html">Casting</a></li>
                     <li><a href="./talents.html">Talent</a></li>
-                    <li><a href="./ad.html">advertensie</a></li>
+                    <li><a href="./ad.html">Projects</a></li>
                     <li><a href="./register.html">Register as Talent</a></li>
                 </ul>
             </div>
