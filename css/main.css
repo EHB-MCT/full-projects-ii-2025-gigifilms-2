@@ -32,8 +32,19 @@ body {
   }
  
  
+
+
+
+ .menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
  
- 
+
+
+
     h1{
  
 font-family: "Playfair Display", serif;
@@ -209,16 +220,7 @@ font-size: 18px;
  
  
   
-   
-   
- 
- 
-.menu-toggle {
-  display: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
-}
+
  
 
 .footer {
