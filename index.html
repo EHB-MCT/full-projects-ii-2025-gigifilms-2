@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-  <link href="css/reset.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
+   <meta charset="UTF-8">
+  <title>Gigifilms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="./css/main.css" rel="stylesheet" type="text/css" />
+  
 </head>
 <body>
 
 
-  <script src="js/index.js"></script>
+<div class="navbar">
+  <div class="logo">
+    <a href="./index.html">
+      <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+    </a>
+  </div>
+  <div class="menu-toggle" id="menu-toggle">
+    ☰
+  </div>
+  <div class="nav-links" id="nav-links">
+    <a href="./about.html">about</a>
+    <a href="./project.html">our work</a>
+    <a href="./casting.html">casting</a>
+    <a href="./talents.html">talent</a>
+    <a href="./ad.html">projects</a>
+    <a href="./register.html">register as a talent</a>
+    
+  </div>
+</div>
+ 
+ 
+ 
+ 
+<main>
+        <div class="grid1">
+         
+         <img src="./images/liam2.png" alt="liam">
+ 
+         <h1>Gigicasting</h1>
+         <p>Gigi Casting focuses on streetcasting. Aiming for more diversity and authenticity on screen. GIGI Casting guides new talent before set, supports talent on set and counsels talent after
+         set in taking the next steps towards a artistic practice.</p>
+ 
+        <a href="./casting.html" class="casting-button">GIGI casting</a>
+ 
+ 
+ 
+        </div>
+ 
+ 
+ 
+<div class="grid2">
+ 
+  <img src="./images/ZohraBenhammouRomyMana.JPG" alt="zbr">
+  <h2>Zohra Benhammou & Romy Mana </h2>
+  <p>Are a filmmakers duo based in Brussels.
+Their creative partnership began by chance and blossomed into their debut feature documentary, Ana + Yek (Me + You).<br><br> <br>
+ 
+As writers and directors, they work beyond genres and formats, exploring (auto)biography, relational dynamics, spaces and places. They seek honest, direct images, always prioritizing relevance and sincerity in their playful, intuitive approach. </p>
+ 
+ 
+<a href="./about.html" class="casting-button2">About</a>
+ 
+ 
+ 
+</div>
+ 
+ 
+ 
+</main>
+ 
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+        </div>
+        
+        <div class="footer-sections">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./project.html">Our work</a></li>
+                    <li><a href="./casting.html">Casting</a></li>
+                    <li><a href="./talents.html">Talent</a></li>
+                    <li><a href="./ad.html">Projects</a></li>
+                    <li><a href="./register.html">Register as Talent</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section footer-contact">
+                <h3>Contact</h3>
+                <p>Brussels, Belgium</p>
+                <p>zohra@gigifilms.be</p>
+                <p>romy@gigifilms.be</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Streetcasting</a></li>
+                    <li><a href="#">Talent Management</a></li>
+                    <li><a href="#">Film Production</a></li>
+                    <li><a href="#">Documentary</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    
+ 
+</footer>
+ 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('show');
+        });
+    }
+});
+</script>
+ 
+  
 </body>
+</html>

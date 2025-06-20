@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+  <title>Gigifilms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="./css/ad.css" rel="stylesheet" type="text/css" />
+  <script type="module" src="addKaart.js" defer ></script>
+</head>
+<body>
+ 
+ 
+<div class="navbar">
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+        </a>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+    <div class="nav-links" id="nav-links">
+        <a href="./about.html">about</a>
+        <a href="./project.html">our work</a>
+        <a href="./casting.html">casting</a>
+        <a href="./talents.html">talent</a>
+        <a href="./ad.html" class="active">projects</a>
+        <a href="./register.html">register as a talent</a>
+         
+    </div>
+</div>
+ 
+ 
+<main>
+ <form id="kaart-form">
+    <h2>Add an new project</h2>
+    <input type="text" id="project" placeholder="Projectname" required>
+    <input type="text" id="locatie" placeholder="Location" required>
+    <input type="date" id="opnamedatum" required>
+    <input type="text" id="belichting" placeholder="Lighting" required>
+    <input type="text" id="weer" placeholder="Weather" required>
+    <input type="text" id="camera" placeholder="Camera" required>
+    <input type="text" id="lens" placeholder="Lens" required>
+  <input type="file" id="image" name="image" required>
+    <button type="submit">Add</button>
+</form>
+
+
+ <div id="kaart-container">
+         
+ <div class="kaart">
+    <div class="kaart-header">
+      <img class="kaart-foto" img src="./images/putain.jpeg" alt="putainfilm">
+      <div class="kaart-info">
+        <p><strong>Project:</strong> Voorbeeldproject</p>
+        <p><strong>Locatie:</strong> Brussel</p>
+        <p><strong>Opnamedatum:</strong> 18 juni 2025</p>
+      </div>
+    </div>
+    <ul class="kaart-lijst">
+      <li>Belichting: natuurlijk licht, ochtend</li>
+      <li>Weersomstandigheden: helder</li>
+      <li>Camera: Sony A7 III</li>
+      <li>Lens: 24-70mm f/2.8</li>
+    </ul>
+  </div>
+ 
+
+<div class="kaart">
+    <div class="kaart-header">
+      <img class="kaart-foto" img src="./images/putain.jpeg" alt="putainfilm">
+      <div class="kaart-info">
+        <p><strong>Project:</strong> Voorbeeldproject</p>
+        <p><strong>Locatie:</strong> Brussel</p>
+        <p><strong>Opnamedatum:</strong> 18 juni 2025</p>
+      </div>
+    </div>
+    <ul class="kaart-lijst">
+      <li>Belichting: natuurlijk licht, ochtend</li>
+      <li>Weersomstandigheden: helder</li>
+      <li>Camera: Sony A7 III</li>
+      <li>Lens: 24-70mm f/2.8</li>
+    </ul>
+  </div>
+
+  <div class="kaart">
+    <div class="kaart-header">
+      <img class="kaart-foto" img src="./images/putain.jpeg" alt="putainfilm">
+      <div class="kaart-info">
+        <p><strong>Project:</strong> Voorbeeldproject</p>
+        <p><strong>Locatie:</strong> Brussel</p>
+        <p><strong>Opnamedatum:</strong> 18 juni 2025</p>
+      </div>
+    </div>
+    <ul class="kaart-lijst">
+      <li>Belichting: natuurlijk licht, ochtend</li>
+      <li>Weersomstandigheden: helder</li>
+      <li>Camera: Sony A7 III</li>
+      <li>Lens: 24-70mm f/2.8</li>
+    </ul>
+  </div>
+
+</div>
+
+ 
+
+ 
+ 
+</main>
+ 
+ 
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+        </div>
+        
+        <div class="footer-sections">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./project.html">Our work</a></li>
+                    <li><a href="./casting.html">Casting</a></li>
+                    <li><a href="./talents.html">Talent</a></li>
+                    <li><a href="./ad.html">Projects</a></li>
+                    <li><a href="./register.html">Register as Talent</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section footer-contact">
+                <h3>Contact</h3>
+                <p>Brussels, Belgium</p>
+                 <p>zohra@gigifilms.be</p>
+                <p>romy@gigifilms.be</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Streetcasting</a></li>
+                    <li><a href="#">Talent Management</a></li>
+                    <li><a href="#">Film Production</a></li>
+                    <li><a href="#">Documentary</a></li>
+                </ul>
+            </div>
+        </div>
+        
+       
+ 
+</footer>
+ 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+ 
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+});
+</script>
+ 
+  
+</body>
+</html>
+ 

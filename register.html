@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+  <title>Gigifilms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="./css/register.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+ 
+ 
+<div class="navbar">
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+        </a>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+    <div class="nav-links" id="nav-links">
+        <a href="./about.html">about</a>
+        <a href="./project.html">our work</a>
+        <a href="./casting.html">casting</a>
+        <a href="./talents.html">talent</a>
+         <a href="./ad.html">projects</a>
+        <a href="./register.html" class="active">register as a talent</a>
+         
+    </div>
+</div>
+ 
+<main>
+ 
+<div class="grid1">
+         
+<p>Make an account</p>
+<p>Last name:*</p>
+<p>Name:*</p>
+<input type="text" placeholder="Last name" />
+<input type="text" placeholder="Name" />
+ 
+<p>Adress:*</p>
+<input type="text" placeholder="Adress" />
+<p>ZIP-code:*</p>
+<p>City:*</p>
+<input type="text" placeholder="ZIP-code" />
+<input type="text" placeholder="City" />
+<p>Day/Month/Year:*</p>
+<p>Language:*</p>
+<p>Nationality:*</p>
+<input type="text" placeholder="Day/Month/Year" />
+<input type="text" placeholder="Language" />
+<input type="text" placeholder="Nationality" />
+<p>E-mail:*</p>
+<input type="text" placeholder="E-mail" />
+<p>Password:*</p>
+<p>Confirm Password:*</p>
+<input type="text" placeholder="Password" />
+<input type="text" placeholder="Confirm Password" />
+<p>Upload Picture:*</p>
+<p>Upload Video:</p>
+<p>Upload Motivation:</p>
+<input type="text" placeholder="Upload Picture" />
+<input type="text" placeholder="Upload Video" />
+<input type="text" placeholder="Upload Motivation" />
+ 
+ 
+   <a href="./register.html" class="btn-outline">Register</a>
+  <a href="./login.html" class="btn-filled">Login</a>
+ 
+ 
+</div>
+ 
+ 
+</main>
+ 
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="./images/gigifilms_logo_wit.png" alt="Gigifilms Logo">
+        </div>
+        
+        <div class="footer-sections">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./project.html">Our work</a></li>
+                    <li><a href="./casting.html">Casting</a></li>
+                    <li><a href="./talents.html">Talent</a></li>
+                    <li><a href="./ad.html">Projects</a></li>
+                    <li><a href="./register.html">Register as Talent</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section footer-contact">
+                <h3>Contact</h3>
+                <p>Brussels, Belgium</p>
+                <p>zohra@gigifilms.be</p>
+                <p>romy@gigifilms.be</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Streetcasting</a></li>
+                    <li><a href="#">Talent Management</a></li>
+                    <li><a href="#">Film Production</a></li>
+                    <li><a href="#">Documentary</a></li>
+                </ul>
+            </div>
+        </div>
+        
+     
+    
+</footer>    
+ 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+ 
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+});
+</script>
+ 
+ 
+ 
+  
+</body>
+</html>
+ 
